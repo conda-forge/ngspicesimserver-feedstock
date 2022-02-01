@@ -1,3 +1,5 @@
+boost:
+- 1.74.0
 capnproto:
 - 0.9.1
 channel_sources:
@@ -6,5 +8,8 @@ channel_targets:
 - conda-forge main
 cxx_compiler:
 - vs2017
+pin_run_as_build:
+  boost:
+    max_pin: x.x.x
 target_platform:
 - win-64
