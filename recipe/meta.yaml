@@ -1,5 +1,5 @@
 {% set name = "NgspiceSimServer" %}
-{% set version = "0.1.3" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/NyanCAD/NgspiceSimServer/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: debea3105f5828aa5da9910b26e9a83e880323d44b62eb267f0f3c97ade27450
+  sha256: 3e1e9017f955843a9344d50ff43021c733dbe3a12c4a1b5a38bb4bd7703a51d8
 
 build:
   number: 0
@@ -22,8 +22,10 @@ requirements:
   host:
     - capnproto
     - ngspice-lib
+    - boost-cpp
   run:
     - ngspice-lib
+    - boost-cpp
     - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.9") }}  # [osx and x86_64]
 
 test:
