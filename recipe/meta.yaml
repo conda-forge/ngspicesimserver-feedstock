@@ -1,5 +1,5 @@
 {% set name = "NgspiceSimServer" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/NyanCAD/NgspiceSimServer/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: eb4195bc4e595b658d5e2c46ea71e21c38fe372f7358b1c254df540e14bacd7e
+  sha256: 2213080ddfaf656bc47146dd64241277c056b4f47f4bdace5001ff9f33d94d01
 
 build:
   number: 0
