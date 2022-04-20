@@ -1,5 +1,5 @@
 {% set name = "NgspiceSimServer" %}
-{% set version = "0.3.3" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/NyanCAD/NgspiceSimServer/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 2213080ddfaf656bc47146dd64241277c056b4f47f4bdace5001ff9f33d94d01
+  sha256: d0ad641e64713a7f47cc945ebd8a83555ecaad39f00e749950a214db94668b71
 
 build:
   number: 0
@@ -36,7 +36,7 @@ about:
   home: https://github.com/NyanCAD/SimServer
   license: AGPL-3.0-or-later
   license_file: LICENSE.txt
-  summary: "Cap'n Proto simulation server for Ngspice"
+  summary: Cap'n Proto simulation server for Ngspice
   dev_url: https://github.com/NyanCAD/NgspiceSimServer
 
 extra:
