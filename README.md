@@ -3,7 +3,7 @@ About ngspicesimserver
 
 Home: https://github.com/NyanCAD/SimServer
 
-Package license: AGPL-3.0-or-later
+Package license: MPL-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ngspicesimserver-feedstock/blob/main/LICENSE.txt)
 
