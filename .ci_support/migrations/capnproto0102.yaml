@@ -3,5 +3,5 @@ __migrator:
   kind: version
   migration_number: 1
 capnproto:
-- 0.10.0
-migrator_ts: 1654306259.6328642
+- 0.10.2
+migrator_ts: 1656641062.879805
