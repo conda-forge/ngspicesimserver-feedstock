@@ -1,5 +1,5 @@
 boost_cpp:
-- 1.74.0
+- 1.78.0
 capnproto:
 - 0.10.2
 cdt_name:
