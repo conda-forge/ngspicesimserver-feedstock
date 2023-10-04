@@ -10,7 +10,7 @@ source:
   sha256: 7af0d52f1c42f72d8c49cae1fca8228886d4d1c80a1c81e3ce62afd5b6ae0beb
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -22,10 +22,9 @@ requirements:
   host:
     - capnproto
     - ngspice-lib
-    - boost-cpp
+    - libboost-devel
   run:
     - ngspice-lib
-    - boost-cpp
     - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.9") }}  # [osx and x86_64]
 
 test:
