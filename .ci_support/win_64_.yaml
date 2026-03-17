@@ -1,13 +1,13 @@
 c_stdlib:
 - vs
 capnproto:
-- 1.0.2
+- 1.4.0
 channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
 cxx_compiler:
-- vs2019
+- vs2022
 libboost_devel:
 - '1.86'
 target_platform:
